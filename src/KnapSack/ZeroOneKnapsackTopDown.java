@@ -1,6 +1,4 @@
-package Dp1;
-
-import java.util.Arrays;
+package KnapSack;
 
 public class ZeroOneKnapsackTopDown {
     public static void main(String[] args){

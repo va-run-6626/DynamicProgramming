@@ -1,4 +1,4 @@
-package Dp1;
+package KnapSack;
 import java.util.*;
 
 public class ZeroOneKnapsackMemoization {
