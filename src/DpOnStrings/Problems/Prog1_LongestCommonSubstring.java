@@ -2,7 +2,7 @@ package DpOnStrings.Problems;
 
 import java.util.Arrays;
 
-public class LongestCommonSubstring {
+public class Prog1_LongestCommonSubstring {
     public static void main(String[] args) {
         String s1 = "ABCDGH";
         String s2 = "ACDGHR";

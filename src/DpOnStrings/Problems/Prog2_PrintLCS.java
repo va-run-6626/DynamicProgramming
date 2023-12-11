@@ -1,6 +1,6 @@
 package DpOnStrings.Problems;
 
-public class PrintLCS {
+public class Prog2_PrintLCS {
     public static void main(String[] args) {
         String s1 = "abcdefg";
         String s2 = "abcdefg";
