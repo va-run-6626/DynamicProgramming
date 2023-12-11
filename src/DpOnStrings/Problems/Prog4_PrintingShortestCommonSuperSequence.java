@@ -27,7 +27,6 @@ public class Prog4_PrintingShortestCommonSuperSequence {
                 }
             }
         }
-        int SCS = dp[x][y];
         StringBuilder sb = new StringBuilder();
         int i = x;
         int j = y;
