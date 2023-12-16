@@ -1,6 +1,6 @@
 package DpOnStrings.Problems;
 
-public class Problem8_LongestRepeatingSubsequence {
+public class Prog8_LongestRepeatingSubsequence {
     public static void main(String[] args) {
         String s = "AABEBCDD";
         System.out.println("Longest Repeating Subsequence : "+helper(s));
