@@ -21,11 +21,15 @@ public class Prog10_SequencePatternMatching {
                 }
             }
         }
-        StringBuilder sb = getStringBuilder(a, b, dp);
-        if(sb.toString().equals(a)){
-            return true;
-        }
-        return false;
+//        StringBuilder sb = getStringBuilder(a, b, dp);
+//        if(sb.toString().equals(a)){
+//            return true;
+//        }
+//        return false;
+
+        // can directly return if a.length is same as lcs
+
+        return a.length()==dp[a.length()][b.length()];
     }
 
     private static StringBuilder getStringBuilder(String a, String b, int[][] dp) {
