@@ -5,9 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="609597a8-2bad-4b93-a6f5-341531e6ed7a" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/DpOnStrings/Problems/Prog11_MinimumNumberOfInsertionsToMakePalindrome.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CrioAndExtras/WeightedJobScheduling.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/MatrixChainMultiplication/MatrixChainMultiplicationMemoization.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/MatrixChainMultiplication/MatrixChainMultiplicationRecursion.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/MatrixChainMultiplication/Problems/EvaluateExpressionToTrueBooleanParenthesization.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/MatrixChainMultiplication/Problems/Prog1_PalindromicPartitioning.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DpOnStrings/Problems/Prog10_SequencePatternMatching.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DpOnStrings/Problems/Prog10_SequencePatternMatching.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
