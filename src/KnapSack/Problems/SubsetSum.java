@@ -27,6 +27,8 @@ public class SubsetSum {
         System.out.println("Is Possible using memoization: " + subsetMem(arr,arr.length,sum,tMem));
         System.out.println("Is Possible using Bottom Up: " + subsetBtm(arr,sum,TBtm));
     }
+
+    // tc -> n sc -> n^2
     static boolean subsetBtm(int[] arr, int sum,boolean[][] tBtm){
         for(int i = 1; i <= arr.length; i++){
             for(int j = 1; j <= sum; j++){
@@ -39,6 +41,7 @@ public class SubsetSum {
         }
         return tBtm[arr.length][sum];
     }
+    //o(n) space -> n^2 + stack
     static boolean subsetMem(int[] arr, int ind, int sum,Boolean[][] tMem){
         if(ind == 0 && sum == 0){
             return true;
@@ -58,6 +61,8 @@ public class SubsetSum {
             return tMem[ind][sum];
         }
     }
+
+    // tc -> o(n^2) sc -> space used by stack
     static boolean subsetRec(int[] arr, int ind, int sum){
         if(ind == 0 && sum == 0){
             return true;

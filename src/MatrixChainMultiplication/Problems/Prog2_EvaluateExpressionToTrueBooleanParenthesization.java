@@ -2,7 +2,7 @@ package MatrixChainMultiplication.Problems;
 
 import java.util.Arrays;
 
-public class EvaluateExpressionToTrueBooleanParenthesization {
+public class Prog2_EvaluateExpressionToTrueBooleanParenthesization {
     public static void main(String[] args) {
         String s = "T|T&F^T";
         System.out.println("No of ways yo parenthesization in true = "+solve(s));
